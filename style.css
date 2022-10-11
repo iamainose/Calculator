@@ -1,0 +1,114 @@
+body {
+   background-color: gold;
+   display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.body {
+    width: 410px;
+    height: 670px;
+    background-color: black;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.sub-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.output {
+    color: white;
+    width: 400px;
+    height: 150px;
+    background-color: #86acac;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.clearButtons {
+   display: flex;
+   justify-content: center;
+   gap: 8px;
+}
+
+.numbers {
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+}
+
+button {
+   padding: 30px;
+   width: 90px;
+   border-radius: 50%;
+   background-color: #86acac;
+   font-size: 20px;
+   border: 2px solid gold;
+}
+
+.delete {
+    width: 45%;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.delete:hover {
+     background-color: #c63939;
+}
+
+.clear {
+  width: 55%;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.clear:hover {
+     background-color: #5799db;
+}
+
+button:hover {
+     background-color: gold;
+}
+
+.operator:hover {
+    background-color: #b3d9ff;
+}
+
+.currentNumber {
+    color: black;
+    font-size: 50px;
+   margin-right: 10px;
+}
+
+.decimal:hover {
+    background-color: darkgray;
+}
+.equal:hover {
+    background-color: rgba(21, 241, 21, 0.918);
+}
+
+.previousNumber {
+     margin-right: 15px;
+     color: black;
+     font-size: 30px;
+}
