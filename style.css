@@ -1,5 +1,5 @@
 body {
-   background-color: gold;
+   background-color: #ccc;
    display: flex;
     flex-direction: column;
    justify-content: center;
@@ -38,6 +38,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .flex {
